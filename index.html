@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flor</title>
+	<style>
+	body{
+		background: #bc4639;
+	}
+	.container{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-shrink: 10;
+		margin: 50px;
+		align-content: center;
+	}
+	.box{
+		width: 30%;
+		height: 60%;
+		align-self: center;
+		text-align: center;
+		border-radius: 10px;
+            background: #f3e0dc;
+        }
+        h2{
+            text-decoration: none;
+            font-family: cursive;
+            color: #5c2018;
+        }
+        p{
+        	color: #5c2018;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 30px;
+            text-align: center;
+        }
+        img{
+        	object-fit: fill;
+        }
+        .img1{
+        	clip-path: circle(43.6% at 49% 50%);
+            max-width: 66%;  
+            height: auto;
+            width: min-content; 
+            align-self: center;
+        }
+        .img2{
+        	clip-path: circle(41.8% at 53% 50%);
+            max-width: 95%;  
+            height: auto; 
+            width: min-content;
+            align-self: center;
+        }
+        .img3{
+        	 clip-path: circle(34.5% at 50% 48%);
+             max-width: 90%;  
+             height: auto; 
+             width: min-content;
+             align-self: center;
+        }
+        button{
+    height: 40px;
+    width: 60%;
+    margin-bottom: 40px;
+    font-size: 20px;
+    align-content: center;
+    border-radius: 15px;
+    font-family: cursive;
+    color: #f3e0dc;
+    background: #4285f4;
+    border: none;
+}
+.box:hover{
+    box-shadow: 5px 5px 20px #d4a59a;
+}
+
+button:hover{
+    box-shadow: 2px 2px 10px #a882ca;
+    cursor: pointer;
+    
+}
+.imagebox3:hover{
+    cursor: pointer;
+}
+.imagebox2:hover{
+    cursor: pointer;
+}
+.imagebox1:hover{
+    cursor: pointer;
+}
+	}
+	</style>
+</head>
+<body>
+    <div class="container">
+    	<div class="box">
+    		<div>
+    			<img src="Loto.jpg" width="500px" class="img1">
+    		</div>
+    		<h2>Lotus</h2>
+    		<p>
+                Lotus (Nelumbo Nucifera Gaertn) is the National Flower of India. It is a sacred flower and occupies a unique position in the art and mythology of ancient India and has been an auspicious symbol of Indian culture since time immemorial.
+    		</p>
+    		<a href=" "><button>More</button></a>
+    	</div>
+    	<div class="box" id="two">
+    		<div>
+    			<img src="rose.png" width="500px" class="img2">
+    		</div>
+    		<h2>Rose</h2>
+    		<p>
+    			Roses belong to the family of plants called Rosaceae. All roses were originally wild: they grew in North America, Europe, northwest Africa and many parts of Asia and Oceania. There are over 100 different species of roses. 
+    		</p>
+    		<a href=" "><button>More</button></a>
+    	</div>
+    	<div class="box" id="three">
+    		<div>
+    			<img src="waterlily.jpg" width="500px" class="img3" >
+    		</div>
+    		<h2>Water Lily</h2>
+    		<p>
+    			Because they rest on the water's surface, the flowers and pads provide shade, keeping the water cooler and preventing algae that thrive in heat from growing in excess. Water lilies also shelter fish from predatory birds and the heat of the sun.
+    		</p>
+    		<a href=" "><button>More </button></a>
+    	</div>
+    	
+    </div>
+</body>
+</html>
